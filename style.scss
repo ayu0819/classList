@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+}
+
+p,h1,h2 {
+    color: rgb(73, 73, 73);
+}
+
+i {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+.back {
+      &-yellow{
+        background-color: rgb(215, 174, 48);
+      }  
+}
+
+.classList-btn {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    text-align: center;
+    transition: all ease-out .3s;
+}
+
+.classList-btn.active {
+    background-color: rgb(159, 122, 13);
+    transition: all ease-out .3s;
+}
+
+.className-btn{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    text-align: center;
+    transition: all ease-out .3s;
+    background-color: rgb(98, 176, 89);
+}
+
+.style-btn{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    text-align: center;
+    transition: all ease-out .3s;
+    background-color: rgb(215, 80, 107);
+}
+
+.active {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    text-align: center;
+    transition: all ease-out .3s;
+    background-color: rgb(47, 117, 39);
+    transition: all ease-out .3s;
+}
+
+.contents{
+    margin: 5em 0;
+}
